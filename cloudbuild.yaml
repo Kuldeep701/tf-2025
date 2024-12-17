@@ -7,3 +7,6 @@ steps:
         terraform init
         terraform plan -out=tfplan
         terraform apply -auto-approve tfplan
+
+options:
+  logging: CLOUD_LOGGING_ONLY

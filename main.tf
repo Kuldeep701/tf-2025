@@ -10,5 +10,5 @@ resource "google_storage_bucket" "my_bucket" {
 }
 resource "google_compute_network" "tf-ecom-vpc"{
     name = "tf-auto-ecom-vpc"
-    auto_create_subnetworks = "false"
+    auto_create_subnetworks = false
 }
